@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="Index_VisionM.css">
+</head>
+
+
+<body>
+    <header>
+        <div class = "VisionM">
+            <h1>Vision M</h1>
+        </div>
+        <nav>
+        <div class = "Navegacion">
+            <div class = "row">
+                <div class = "col-md-3 ColNav">
+                    Inicio
+                </div>
+                <div class = "col-md-3 ColNav">
+                    Servicios
+                </div>
+                <div class = "col-md-3 ColNav">
+                    Acerca de nosotros
+                </div>
+                <div class = "col-md-3 ColNav">
+                    Contacto
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+<!------------------------------------------------------------------------------------------------------------------------------------->        
+<br> <!-- Parte chida de la pagina, se mostrarán los 4 elementos de la barra de navegación de forma distribuida -->
+<!------------------------------------------------------------------------------------------------------------------------------------->        
+    <main>
+        <div class = "Servicios">
+            <div class = "row">
+<!--    Parte derecha de los servicios. Se mostrará un mensaje para los clientes -->
+                <div class = "col-md-4">
+                    <h2>Servicios de Pintura</h2>
+                    <p>Como empresa nos comprometemos a ser tu mejor opción para garantizar trabajos de calidad en el recubrimiento de tus piezas</p>
+                </div>
+<!--    Parte izquiera de los servicios. Se despliega el carrusel con las imagenes de trabajos previos -->
+                <div class = "col-md-8">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="VisionM_Galeria/Servicio1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                            <img src="VisionM_Galeria/Servicio2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                            <img src="VisionM_Galeria/Servicio4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------------------------------------------------------------------------------------------------------------------->        
+<br> <!-- 2do apartado de la pagina. Informacion general de la empresa Vision M -->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+        <div class = "General">
+            <h2>¿Quiénes Somos?</h2>
+            <p>Ubicada en Apodaca, Nuevo León Vision M es una empresa local que provee servicios de recubrimiento con pintura electrostatica para el sector de manufactura</p>
+        </div>                
+<!------------------------------------------------------------------------------------------------------------------------------------->        
+<br> <!-- 3er apartado de la pagina. Informacion de contacto -->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+        <div class = "Contacto">
+            <h2>Contacto</h2>
+            <div class = "row rowContacto">
+                <div class = "col-md-4">
+                    <p><b>Horarios de operación: </b>Lunes a Sabado. 8:00 am - 18:00 pm</p>
+                    <p><b>Telefono: </b>+52 813 172 4849</p>
+                    <p><b>Botón de WhatsApp</b></p>
+                    <p><b>Correo: </b>juande.22@outlook.com</p>
+                </div>
+                <div class = "col-md-8">
+                    <div class= "row Mapa rowContacto">
+                        <div class = "map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.4109612529496!2d-100.16215868938617!3d25.75698607726037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662e967ff10d775%3A0xd68155425bc22dce!2sR%C3%ADo%20Pil%C3%B3n%20305%2C%20Pueblo%20Nuevo%20II%2C%2066646%20Cdad.%20Apodaca%2C%20N.L.!5e0!3m2!1ses-419!2smx!4v1771813692192!5m2!1ses-419!2smx" 
+                                width="100%" 
+                                height="100%" 
+                                style="border:0;" 
+                                allowfullscreen="" loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class= "row rowContacto">
+                        <p><b>Dirección: </b>Río Pilón 305, Pueblo Nuevo, Apodaca, N.L</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

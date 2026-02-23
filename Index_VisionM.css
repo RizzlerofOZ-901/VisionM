@@ -1,0 +1,51 @@
+.VisionM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 5px solid #FFB200;
+    height: 400px; 
+    width: 100%;
+}
+
+.Navegacion{
+    border: 5px solid black;  
+    width: 100%;  
+}
+
+.Servicios{
+    border: 5px solid blue;
+    height: 500px;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 500px
+}
+
+.carousel-item img{
+    height: 98%;
+    object-fit: cover;
+}
+
+.General{
+    border: 5px solid blue;
+    width: 100%;
+}
+
+.Contacto{
+    border: 5px solid blue;
+}
+
+.rowContacto{
+    border: 5px solid black;
+}
+
+.Mapa{
+    height: 300px;
+}
+
+.map-container{
+    width: 105%;
+    height: 100%;
+}
