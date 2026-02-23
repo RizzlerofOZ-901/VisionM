@@ -11,32 +11,39 @@
 
 <body>
     <header>
+    <section id="Inicio">
         <div class = "VisionM">
             <h1>Vision M</h1>
         </div>
-        <nav>
+        
+    <nav>
         <div class = "Navegacion">
             <div class = "row">
-                <div class = "col-md-3 ColNav">
-                    Inicio
+                <div class = "col-md ColNav">
+                    <a href="#Inicio">Inicio</a>
                 </div>
-                <div class = "col-md-3 ColNav">
-                    Servicios
+                <div class = "col-md ColNav">
+                    <a href="#Servicios">Servicios</a>
                 </div>
-                <div class = "col-md-3 ColNav">
-                    Acerca de nosotros
+                <div class = "col-md ColNav">
+                    <a href="#Acerca">Acerca de nosotros</a>
                 </div>
-                <div class = "col-md-3 ColNav">
-                    Contacto
+                <div class = "col-md ColNav">
+                    <a href="#Contacto">Contacto</a>
+                </div>
+                <div class = "col-md ColNav">
+                    <a href="#Cotizaciones">Cotizaciones</a>
                 </div>
             </div>
         </div>
     </nav>
+    </section>
     </header>
 <!------------------------------------------------------------------------------------------------------------------------------------->        
 <br> <!-- Parte chida de la pagina, se mostrarán los 4 elementos de la barra de navegación de forma distribuida -->
 <!------------------------------------------------------------------------------------------------------------------------------------->        
     <main>
+        <section id = "Servicios">
         <div class = "Servicios">
             <div class = "row">
 <!--    Parte derecha de los servicios. Se mostrará un mensaje para los clientes -->
@@ -70,24 +77,34 @@
                 </div>
             </div>
         </div>
+        </section>
 <!------------------------------------------------------------------------------------------------------------------------------------->        
 <br> <!-- 2do apartado de la pagina. Informacion general de la empresa Vision M -->
 <!------------------------------------------------------------------------------------------------------------------------------------->
+        <section id = "Acerca">
         <div class = "General">
             <h2>¿Quiénes Somos?</h2>
-            <p>Ubicada en Apodaca, Nuevo León Vision M es una empresa local que provee servicios de recubrimiento con pintura electrostatica para el sector de manufactura</p>
-        </div>                
+            <p>Ubicada en Apodaca, Nuevo León Vision M es una empresa local que provee servicios de recubrimiento con pintura electrostatica para el sector de manufactura.</p>
+            <h3>Misión</h3>
+            <p>El apoyar a las grandes y pequeñas empresas proveyendo servicios de recubrimiento de pintura electroestática en polvo para piezas estructuras y metálicas.</p>
+            <h3>Visión</h3>
+            <p>Consolidarnos como una empresa referente a nivel nacional en el sector de recubrimientos industriales, destacando por nuestra excelencia operativa, tecnología avanzada y relaciones comerciales sólidas con empresas de manufactura.</p>
+            <h3>Historia</h3>
+            <p>Vision M es una empresa local que nace a partir del fundador: Juan Medina. Con el propósito de crear un negocio y la amplia experiencia respaldada por más de 23 años en la industria de la pintura electrostática en 2025 Visión M abre las puertas al público compitiendo con las grandes industrias en el mercado en la aplicación de acabados para las industrias enfocadas en manufactura de piezas y estructuras metálicas.</p>
+        </div>
+        </section>                
 <!------------------------------------------------------------------------------------------------------------------------------------->        
 <br> <!-- 3er apartado de la pagina. Informacion de contacto -->
 <!------------------------------------------------------------------------------------------------------------------------------------->
+        <section id = "Contacto">
         <div class = "Contacto">
             <h2>Contacto</h2>
             <div class = "row rowContacto">
-                <div class = "col-md-4">
+                <div class = "col-md-4 ContactoInfo">
                     <p><b>Horarios de operación: </b>Lunes a Sabado. 8:00 am - 18:00 pm</p>
-                    <p><b>Telefono: </b>+52 813 172 4849</p>
-                    <p><b>Botón de WhatsApp</b></p>
                     <p><b>Correo: </b>juande.22@outlook.com</p>
+                    <p><b>Telefono: </b>+52 813 172 4849</p>
+                    <a class="btn btn-primary" href="https://wa.me/528131724849" role="button">Chat en WhatsApp</a>
                 </div>
                 <div class = "col-md-8">
                     <div class= "row Mapa rowContacto">
@@ -108,9 +125,75 @@
             </div>
             
         </div>
+        </section>
+<!------------------------------------------------------------------------------------------------------------------------------------->        
+<br> <!-- 4to aprtado de la pagina. Cotizaciones -->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+        <section id = "Cotizaciones">
+        <div class = "Cotizaciones">
+            <h2>Cotizaciones</h2>
+            <p>Contactanos, nos gustaría conocerte</p>
+            <section class="form-section">
+                <form class="appointment-form">
+                    <div class="row">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <input type="text" name="apellidos" placeholder="Apellidos" required>
+                    </div>
+                    <div class="row">
+                        <input type="tel" name="telefono" placeholder="Teléfono" required>
+                        <input type="email" name="correo" placeholder="Correo" required>
+                    </div>
+                    <div class = "row">
+                        <input type="text" name="empresa" placeholder="Empresa">
+                        <textarea name="comentarios" placeholder="Comentarios"></textarea>
+                    </div>
+                    <input type="datetime-local" 
+                        name="fecha" 
+                        id="fechaCita"
+                        required>
+                    <button type="submit">Agendar cita</button>
+
+                </form>
+            </section>
+        </div>
+        </section>
+<!------------------------------------------------------------------------------------------------------------------------------------->        
+<br> <!-- Footer de la pagina -->
+<!------------------------------------------------------------------------------------------------------------------------------------->
+        <footer>
+            <div class = "footer-container text-center">
+                <div class = "row">
+                    <p>Vision M</p>
+                    <p>Empresa dedicada al recubrimiento de pintura electrostática</p>
+                    <p>© 2026 VisionM. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
     </main>
     
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav a');
+
+        window.addEventListener('scroll', () => {
+        let current = '';
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (scrollY >= sectionTop - 50 && scrollY < sectionTop + sectionHeight - 50) {
+            current = section.getAttribute('id');
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').substring(1) === current) {
+            link.classList.add('active');
+            }
+        });
+        });
+     </script>
 </body>
 
 

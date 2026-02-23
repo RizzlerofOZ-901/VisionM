@@ -39,6 +39,13 @@
 
 .rowContacto{
     border: 5px solid black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ContactoInfo{
+    margin: auto;
 }
 
 .Mapa{
@@ -49,3 +56,75 @@
     width: 105%;
     height: 100%;
 }
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%; /* Ajusta el color */
+    color:white;
+    background-color: black;
+    z-index: 100;
+}
+section{
+    scroll-margin-top: 30px;
+}
+
+.Cotizaciones{
+    border: 5px solid blue;
+}
+.footer-container{
+    border: 5px solid blue;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.appointment-form {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.appointment-form .row {
+    display: flex;
+    gap: 15px;
+}
+
+.row input {
+    flex: 1;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.appointment-form button {
+    padding: 12px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+nav a.active {
+  color: #FFB200; /* Ajusta el color */
+  border-bottom: 2px solid #FFB200;
+  /* O usa box-shadow, text-shadow, etc. para el "glow" */
+}
+
